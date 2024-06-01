@@ -19,7 +19,13 @@
 
 - gh repo create <prj-name> --public --clone --license mit
 - gh repo create <prj-name> --public --clone --license mit --add-readme
-  -> --add-readmeが使えず。。バージョンが古いせいかも
+  -> --add-readmeが使えなかった。バージョンが古いせいかも
+
+### create repository(local repo -> remote repo)
+
+- git init
+- git commit -m "hoge"
+- gh repo create
 
 ### create pr
 
@@ -30,3 +36,4 @@
 - ghq list -p <repo-name>
 - ghq list -p 
 - ghq root
+

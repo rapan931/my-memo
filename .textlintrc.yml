@@ -6,15 +6,11 @@ rules:
     ja-no-mixed-period: false
   preset-ja-spacing:
     ja-nakaguro-or-halfwidth-space-between-katakana: true
-    ja-no-space-around-parentheses: true
+    ja-no-space-around-parentheses: false
     ja-no-space-between-full-width: true
-    ja-space-between-half-and-full-width:
-      space: always
+    ja-space-between-half-and-full-width: false
     ja-space-after-exclamation: true
     ja-space-after-question: true
     ja-space-around-code:
       before: true
       after: true
-
-# vim:se ft=yaml:
-
